@@ -10,7 +10,7 @@ export default function App() {
       <stackNavigator.Navigator
         initialRouteName="Home"
         screenOptions={{
-          headerShown: false, // Hide the header
+          headerShown: false, 
         }}
       >
         <stackNavigator.Screen name="Home" component={HomeScreen} />
